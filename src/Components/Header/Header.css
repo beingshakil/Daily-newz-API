@@ -1,0 +1,27 @@
+
+.category-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .category-btn button{
+    gap: 15px;
+    width: 130px;
+    height: 33px;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+  }
+  
+  .head{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }

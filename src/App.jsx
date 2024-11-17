@@ -8,8 +8,7 @@ function App() {
   const [newsData, setNewsData] = useState(null); // Holds the fetched news data
   const [search, setSearch] = useState("Bangladesh"); // Default search term
 
-    // eslint-disable-next-line no-undef
-  const API_KEY = "ba7680c540d7436598187aec7d0fd828"
+  const API_KEY = import.meta.env.VITE_API_KEY || "your-fallback-key"
 
   // Function to fetch data from the API
   const getData = async (query) => {
